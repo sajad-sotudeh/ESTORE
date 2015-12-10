@@ -66,3 +66,50 @@ function add_technical_table(){
 	}
 }
 add_action( 'admin_init', 'add_technical_table' );
+
+/**
+ * Adds a box to the main column on the Post and Page edit screens.
+ */
+function technical_metabox() {
+	$screens = array( 'laptops', 'phones'  );
+	foreach ( $screens as $screen ) {
+		add_meta_box(
+			'myplugin_sectionid',
+			__( 'Technical Specifications', 'estore' ),
+			'add_technical_metabox',
+			$screen
+		);
+	}
+}
+add_action( 'add_meta_boxes', 'technical_metabox' );
+
+function add_technical_metabox( $post ) {
+	// Add a nonce field so we can check for it later.
+	wp_nonce_field( 'technical_save_metabox_data', 'technical_meta_box_nonce' );
+	global $wpdb;
+	$technical_table = $wpdb->prefix . 'technical';
+	$technical_infos = $wpdb->get_results( "SELECT cpu_implementer, cpu_seri, ram, graphic, weight FROM {$technical_table} WHERE product_id = $post->ID " );
+	?>
+	<table border="0">
+		<tr>
+			<td><?php _e('cpu implementer', 'estore'); ?></td>
+			<td><input type="text" id="cpu_implementer_field" name="cpu_implementer_field" value="<?php echo $technical_infos[0]->cpu_implementer; ?>" size="25" /></td>
+		</tr>
+		<tr>
+			<td><?php _e('cpu seri', 'estore'); ?></td>
+			<td><input type="text" id="cpu_seri_field" name="cpu_seri_field" value="<?php echo $technical_infos[0]->cpu_seri; ?>" size="25" /></td>
+		</tr>
+		<tr>
+			<td><?php _e('RAM', 'estore'); ?></td>
+			<td><input type="text" id="ram_field" name="ram_field" value="<?php echo $technical_infos[0]->ram; ?>" size="25" /></td>
+		</tr>
+		<tr>
+			<td><?php _e('graphic', 'estore'); ?></td>
+			<td><input type="text" id="graphic_field" name="graphic_field" value="<?php echo $technical_infos[0]->graphic; ?>" size="25" /></td>
+		</tr>
+		<tr>
+			<td><?php _e('weight', 'estore'); ?></td>
+			<td><input type="text" id="weight_field" name="weight_field" value="<?php echo $technical_infos[0]->weight; ?>" size="25" /></td>
+		</tr>
+	</table><?php
+}
