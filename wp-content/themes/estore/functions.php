@@ -4,6 +4,7 @@
 //******************************************
 define( "THEME_DIR", get_template_directory() );
 define( "THEME_URI", get_template_directory_uri() );
+load_theme_textdomain( 'estore', THEME_DIR .'/lang');
 add_theme_support( 'post-thumbnails' ); 
 
 //************* CPT's ****************/
