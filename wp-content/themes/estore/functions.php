@@ -113,3 +113,65 @@ function add_technical_metabox( $post ) {
 		</tr>
 	</table><?php
 }
+
+//********************************
+// technical specification metabox
+//********************************
+function technical_metabox_save( $post_id ) {
+	global $wpdb;
+	if ( ! isset( $_POST['technical_meta_box_nonce'] ) ) {
+		return;
+	}
+	// Verify that the nonce is valid.
+	if ( ! wp_verify_nonce( $_POST['technical_meta_box_nonce'], 'technical_save_metabox_data' ) ) {
+		return;
+	}
+	// If this is an autosave, our form has not been submitted, so we don't want to do anything.
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
+	// Check the user's permissions.
+	if ( isset( $_POST['post_type'] ) && 'page' == $_POST['post_type'] ) {
+		if ( ! current_user_can( 'edit_page', $post_id ) ) {
+			return;
+		}
+	} else {
+		if ( ! current_user_can( 'edit_post', $post_id ) ) {
+			return;
+		}
+	}
+	/* OK, it's safe for us to save the data now. */
+	// Make sure that it is set.
+	if ( ! isset( $_POST['cpu_implementer_field'] ) ) {
+		return;
+	}if ( ! isset( $_POST['cpu_seri_field'] ) ) {
+		return;
+	}if ( ! isset( $_POST['ram_field'] ) ) {
+		return;
+	}if ( ! isset( $_POST['graphic_field'] ) ) {
+		return;
+	}if ( ! isset( $_POST['weight_field'] ) ) {
+		return;
+	}
+	// Sanitize user input.
+	$cpu_imp = sanitize_text_field( $_POST['cpu_implementer_field'] );
+	$cpu_seri = sanitize_text_field( $_POST['cpu_seri_field'] );
+	$ram = sanitize_text_field( $_POST['ram_field'] );
+	$graphic = sanitize_text_field( $_POST['graphic_field'] );
+	$weight = sanitize_text_field( $_POST['weight_field'] );
+	// Update the meta field in the database.
+	$technical_table = $wpdb->prefix . 'technical';
+	if ( $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(*) FROM {$technical_table} WHERE product_id = %d", $post_id ) ) ){
+		//UPDATE
+		$wpdb->update(
+				$technical_table ,
+				array( 'cpu_implementer' => $cpu_imp , 'cpu_seri' => $cpu_seri, 'ram' => $ram, 'graphic' => $graphic, 'weight' => $weight ),
+				array( 'product_id' => $post_id )
+		  );
+	}else{
+		//INSERT
+		$wpdb->insert( $technical_table, array( 'product_id' => $post_id, 'cpu_implementer' => $cpu_imp, 'cpu_seri' => $cpu_seri, 'ram' => $ram, 'graphic' => $graphic, 'weight' => $weight ), array( '%d', '%s', '%s', '%d', '%s', '%d' ) );
+	}
+		
+}
+add_action( 'save_post', 'technical_metabox_save' );
