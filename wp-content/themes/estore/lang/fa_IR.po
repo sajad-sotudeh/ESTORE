@@ -1,0 +1,1487 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fenjoon\n"
+"POT-Creation-Date: 2015-12-10 15:39+0330\n"
+"PO-Revision-Date: 2015-12-10 15:40+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:14 functions.php:16 functions.php:29
+msgid "Laptops"
+msgstr "لپ‌تاب‌ها"
+
+#: functions.php:15
+msgid "Laptop"
+msgstr "لپ‌تاب"
+
+#: functions.php:17
+msgid "Parent Laptop"
+msgstr "والد لپ‌تاپ"
+
+#: functions.php:18
+msgid "All Laptops"
+msgstr "تمام لپ‌تاپها"
+
+#: functions.php:19
+msgid "View Laptop"
+msgstr "مشاهده‌ی لپتاپ"
+
+#: functions.php:20
+msgid "Add New Laptop"
+msgstr "افزودن لپتاپ تازه"
+
+#: functions.php:21 functions.php:61
+msgid "Add New"
+msgstr "افزودن"
+
+#: functions.php:22
+msgid "Edit Laptop"
+msgstr "ویرایش اطلاعات لپتاپ"
+
+#: functions.php:23
+msgid "Update Laptop"
+msgstr "به‌روزرسانی"
+
+#: functions.php:24
+msgid "Search Laptops"
+msgstr "جستجوی لپتاپ"
+
+#: functions.php:25 functions.php:65
+msgid "Not found"
+msgstr "پیدا نشد"
+
+#: functions.php:26 functions.php:66
+msgid "Not found in Trash"
+msgstr "در زباله دان پیدا نشد"
+
+#: functions.php:30
+msgid "Laptops Products we present"
+msgstr "تمام محصولات لپتاپ که ما در فروشگاه ای‌استور عرضه میکنیم"
+
+#: functions.php:54 functions.php:56 functions.php:69
+msgid "Phones"
+msgstr "گوشی‌ها"
+
+#: functions.php:55
+msgid "Phone"
+msgstr "تلفن ثابت"
+
+#: functions.php:57
+msgid "Parent Phone"
+msgstr "گوشی‌ والد"
+
+#: functions.php:58
+msgid "All Phones"
+msgstr "تمام گوشی‌ها"
+
+#: functions.php:59
+msgid "View Phone"
+msgstr "مشاهده‌ی گوشی‌"
+
+#: functions.php:60
+msgid "Add New Phone"
+msgstr "افزودن گوشی‌ جدید"
+
+#: functions.php:62
+msgid "Edit Phone"
+msgstr "ویرایش اطلاعات گوشی‌"
+
+#: functions.php:63
+msgid "Update Phone"
+msgstr "به‌روزرسانی گوشی"
+
+#: functions.php:64
+msgid "Search Phones"
+msgstr "جستجوی گوشی‌"
+
+#: functions.php:70
+msgid "Phones Products we present"
+msgstr ""
+"محصولات جدید مربوط به بازار گوشی که ای‌استور در اختیار مشتریانش قرار میدهد"
+
+#: functions.php:119
+msgid "Technical Specifications"
+msgstr "مشحصات فنی"
+
+#: functions.php:131 functions.php:181
+msgid "Price"
+msgstr "قیمت"
+
+#: functions.php:152
+msgid "cpu implementer"
+msgstr "سازنده پردازنده"
+
+#: functions.php:156
+msgid "cpu seri"
+msgstr "سری پردازنده"
+
+#: functions.php:156
+msgid "Camera"
+msgstr "دوربین"
+
+#: functions.php:160
+msgid "RAM"
+msgstr "حافظه‌ی Ram"
+
+#: functions.php:164
+msgid "graphic"
+msgstr "کارت گرافیک"
+
+#: functions.php:164
+msgid "Display"
+msgstr "صفحه نمایش"
+
+#: functions.php:168
+msgid "weight"
+msgstr "وزن"
+
+#: functions.php:185
+msgid "Reduced price"
+msgstr "قیمت تخفیفی"
+
+#: index.php:79
+msgid "Latest products"
+msgstr "آخرین محصولات"
+
+#: index.php:94
+msgid "Specials"
+msgstr "پیشنهاد ویژه"
+
+#~ msgid "Real price"
+#~ msgstr "قیمت"
+
+#~ msgid "latest products"
+#~ msgstr "آخرین محصولات"
+
+#~ msgid "The page you are looking for does not exist!"
+#~ msgstr "صفحه یا مطلبی که به دنبال آن هستید وجود ندارد!"
+
+#~ msgid ""
+#~ "Please take a look at items below or start navigating top menu or the site "
+#~ "footer items."
+#~ msgstr ""
+#~ "لطفا به موارد زیر نگاهی بیندازید و یا در منوی فوقانی سایت و یا محتویات فوتر "
+#~ "در پایین همین صفحه به دنبال صفحه مورد نظر خود بگردید."
+
+#~ msgid "You may also use the search tool to look for your content."
+#~ msgstr ""
+#~ "همچنین می‌توانید از ابزار جستجو در بالای همین صفحه استفاده کرده و به دنبال "
+#~ "صفحه یا مطلب مورد نظر خود بگردید."
+
+#~ msgid "Customers club"
+#~ msgstr "باشگاه مشتریان"
+
+#~ msgid "Submit comment"
+#~ msgstr "ثبت نظر"
+
+#~ msgid "Reply this"
+#~ msgstr "پاسخ به این نظر"
+
+#~ msgid "Web design in fenjoon"
+#~ msgstr "طراحی به سبک فنجون"
+
+#~ msgid "Fenjoon brand"
+#~ msgstr "برند فنجون"
+
+#~ msgid "Mission"
+#~ msgstr "بیانیه مأموریت"
+
+#~ msgid "Vision"
+#~ msgstr "چشم انداز"
+
+#~ msgid "About us"
+#~ msgstr "درباره ما"
+
+#~ msgid "Contact us"
+#~ msgstr "تماس با ما"
+
+#~ msgid "Social responsibility"
+#~ msgstr "مسئولیت اجتماعی"
+
+#~ msgid "Follow us"
+#~ msgstr "فنجون را دنبال کنید"
+
+#~ msgid "Services"
+#~ msgstr "خدمات"
+
+#~ msgid "Web design evaluation"
+#~ msgstr "ارزیابی کمی و کیفی طراحی انجام شده"
+
+#~ msgid "Online order submission"
+#~ msgstr "ثبت رایگان سفارش و دریافت قیمت بصورت آنلاین"
+
+#~ msgid "Content design and development"
+#~ msgstr "طراحی و توسعه محتوا"
+
+#~ msgid "Web design and development"
+#~ msgstr "طراحی و توسعه وب"
+
+#~ msgid "Web design valuation"
+#~ msgstr "قیمت گذاری بر طراحی انجام شده"
+
+#~ msgid "Domain and hosting consultation"
+#~ msgstr "مشاوره انتخاب دامنه و سرویس میزبانی وب"
+
+#~ msgid "Content design and development consultation"
+#~ msgstr "مشاوره طراحی و توسعه محتوا"
+
+#~ msgid "Web design and development consultation"
+#~ msgstr "مشاوره طراحی و توسعه وب"
+
+#~ msgid "Web design and development supervision"
+#~ msgstr "نظارت بر پروژه طراحی و توسعه وب"
+
+#~ msgid "Web design"
+#~ msgstr "طراحی وب"
+
+#~ msgid "Standards"
+#~ msgstr "استانداردها"
+
+#~ msgid "Features"
+#~ msgstr "قابلیت‌ها"
+
+#~ msgid "Modules"
+#~ msgstr "ماژول‌ها"
+
+#~ msgid "Contact  us"
+#~ msgstr "تماس با ما"
+
+#~ msgid "#14, Bijan Bldg., West Bahar, Sardar Jangal Str., Tehran"
+#~ msgstr "تهران، خیابان سردار جنگل، خیابان بهار غربی، ساختمان بیژن، واحد 14"
+
+#~ msgid "Contact phone"
+#~ msgstr "تلفن تماس"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Designed and developed by"
+#~ msgstr "طراحی و توسعه توسط"
+
+#~ msgid "fenjoon.net"
+#~ msgstr "فنجون دات نت"
+
+#~ msgid "Farzam Webnegar Sivan. All rights reserved"
+#~ msgstr "فرزام وب نگار سیوان. کلیه حقوق محفوظ است."
+
+#~ msgid "Top Menu"
+#~ msgstr "منوی اصلی"
+
+#~ msgid "Bottom right Menu"
+#~ msgstr "منوی پایین راست"
+
+#~ msgid "Bottom left Menu"
+#~ msgstr "منوی پایین چپ"
+
+#~ msgid "Order submitted successfully"
+#~ msgstr "سفارش شما با موفقیت ثبت شد"
+
+#~ msgid "Order updated successfully"
+#~ msgstr "اطلاعات سفارش شما با موفقیت به روز رسانی شد"
+
+#~ msgid "Payment item submitted successfully"
+#~ msgstr ""
+#~ "پرداخت شما با موفقیت ثبت شد. لطفا به منظور مشاهده نتیجه بررسی، طی 24 ساعت "
+#~ "آینده به این صفحه مراجعه کنید"
+
+#~ msgid "Your login was successful"
+#~ msgstr "با موفقیت وارد حساب کاربری خود شدید"
+
+#~ msgid "Your logout was successful"
+#~ msgstr "با موفقیت از حساب کاربری خود خارج شدید"
+
+#~ msgid "Your registration was successful"
+#~ msgstr "ثبت نام شما با موفقیت انجام شد"
+
+#~ msgid "Your profile updated successfully. Your password changed successfully"
+#~ msgstr "مشخصات شما با موفقیت به روز شد. رمز عبور شما نیز تغییر کرد"
+
+#~ msgid "Your profile updated successfully. Your password did not change"
+#~ msgstr "مشخصات شما با موفقیت به روز شد. رمز عبور شما بدون تغییر باقی ماند"
+
+#~ msgid ""
+#~ "Password reset email has been sent. Please check your inbox for instructions"
+#~ msgstr ""
+#~ "ایمیلی جهت دریافت رمز جدید به آدرس شما ارسال شد. لطفا آدرس ایمیل خود را چک "
+#~ "کنید"
+
+#~ msgid "Affiliation code is added"
+#~ msgstr "شناسه معرف باموفقیت درج شد"
+
+#~ msgid "Affiliation code is changed"
+#~ msgstr "شناسه معرف با موفقیت به روزرسانی شد"
+
+#~ msgid "Title and Content incorrect"
+#~ msgstr "قسمت‌های عنوان و جزئیات سفارش به طور صحیح پر نشده‌اند"
+
+#~ msgid "Access denied. this operation is not permitted"
+#~ msgstr "دسترسی غیر مجاز! شما مجاز به انجام این پردازش نیستید"
+
+#~ msgid "Order did not submit and error occurred"
+#~ msgstr "سفارش شما ثبت نشد. طی تلاش برای ثبت این سفارش خطایی رخ داد"
+
+#~ msgid "Unknown error"
+#~ msgstr "سیستم حین پردازش درخواست شما با خطای غیرمنتظره‌ای مواجه شد"
+
+#~ msgid "Item in progress and cant be removed from order any more"
+#~ msgstr ""
+#~ "کار مربوط به برخی از گزینه‌هایی که از لیست سفارش حذف کردید آغاز شده و امکان "
+#~ "حذف آن وجود ندارد"
+
+#~ msgid "Order did not update and error occurred"
+#~ msgstr ""
+#~ "اطلاعات سفارش به روز رسانی نشد و طی به روز رسانی سفارش شما خطایی رخ داد"
+
+#~ msgid "Date fields are not filled correctly"
+#~ msgstr "فیلد تاریخ به درستی پر نشده است"
+
+#~ msgid "Pursuit field should be filled correctly"
+#~ msgstr "فیلد شماره پیگیری به درستی پر نشده است"
+
+#~ msgid "Payment field should be filled correctly"
+#~ msgstr "فیلد مبلغ به درستی پر نشده است"
+
+#~ msgid "Payment item did not submit and error occurred"
+#~ msgstr "پرداخت شما ثبت نشد. حین پردازش ثبت این پرداخت، خطای رخ داد"
+
+#~ msgid "Access is restricted to members. Please register or login first"
+#~ msgstr ""
+#~ "دسترسی به این بخش از وبسایت مختص مشتریان فنجون است. لطفا ابتدا ثبت نام کرده "
+#~ "و یا با مشخصات کاربری خود وارد شوید"
+
+#~ msgid "Your login was not successful"
+#~ msgstr "تلاش شما برای ورود موفقیت آمیز نبود"
+
+#~ msgid "You must fill the form completely"
+#~ msgstr "لطفا فرم را به طور کامل پر کنید"
+
+#~ msgid "Username already exists. Please choose another"
+#~ msgstr "این نام کاربری قبلا ثبت شده است. لطفا نام کاربری دیگری انتخاب کنید"
+
+#~ msgid "Email address already exists. Please choose another"
+#~ msgstr "آدرس ایمیل قبلا ثبت شده است. لطفا آدرس ایمیل دیگری را وارد کنید"
+
+#~ msgid "Profile did not update and error occurred"
+#~ msgstr "مشخصات شما بدون تغییر ماند. در به روز رسانی خطایی رخ داد"
+
+#~ msgid "Username or email must be provided"
+#~ msgstr "یک نام کاربری یا آدرس ایمیل مورد نیاز است"
+
+#~ msgid "Username does not exist"
+#~ msgstr "کاربری با این مشخصات وجود ندارد"
+
+#~ msgid "Unable to send password reset email"
+#~ msgstr "ارسال ایمیل برای تغییر رمز عبور مقدور نیست"
+
+#~ msgid "Orders can not be edited after their project starts"
+#~ msgstr ""
+#~ "امکان ویرایش سفارش‌ها، پس از آغاز پروژه وجود ندارد. هرگونه تغییر را از طریق "
+#~ "بخش تبادل نظر در صفحه پروژه پیگیری کنید"
+
+#~ msgid "Affiliation code does not exist"
+#~ msgstr "شناسه معرف صحیح نیست"
+
+#~ msgid "Show on homepage"
+#~ msgstr "نمایش در صفحه اصلی"
+
+#~ msgid "Show this post on homepage?"
+#~ msgstr "در صفحه اصلی نمایش داده شود؟"
+
+#~ msgid "Differences"
+#~ msgstr "تفاوت‌های ما"
+
+#~ msgid "Difference"
+#~ msgstr "تفاوت ما"
+
+#~ msgid "All Differences"
+#~ msgstr "همه تفاوت‌ها"
+
+#~ msgid "View Difference"
+#~ msgstr "مشاهده تفاوت"
+
+#~ msgid "Add New Difference"
+#~ msgstr "افزودن یک تفاوت"
+
+#~ msgid "Edit Difference"
+#~ msgstr "ویرایش تفاوت"
+
+#~ msgid "Update Difference"
+#~ msgstr "به روز رسانی تفاوت"
+
+#~ msgid "Search Difference"
+#~ msgstr "جستجوی تفاوت"
+
+#~ msgid "Difference items"
+#~ msgstr "آیتم‌های تفاوت"
+
+#~ msgid "FAQs"
+#~ msgstr "سوالات متدوال"
+
+#~ msgid "FAQ"
+#~ msgstr "سوال"
+
+#~ msgid "All FAQs"
+#~ msgstr "همه سوالات"
+
+#~ msgid "View FAQ"
+#~ msgstr "مشاهده سوال"
+
+#~ msgid "Add New FAQs"
+#~ msgstr "افزودن سوال"
+
+#~ msgid "Edit FAQ"
+#~ msgstr "ویرایش سوال"
+
+#~ msgid "Update FAQ"
+#~ msgstr "به روز رسانی سوال"
+
+#~ msgid "Search FAQ"
+#~ msgstr "جستجوی سوالات متدوال"
+
+#~ msgid "FAQ items"
+#~ msgstr "سوالات متدوال که برای بازدیدکنندگان وبسایت پیش می آید"
+
+#~ msgid "Portfolio"
+#~ msgstr "نمونه کار"
+
+#~ msgid "Parent Portfolio"
+#~ msgstr "نمونه کار اصلی"
+
+#~ msgid "All Portfolio"
+#~ msgstr "همه نمونه کارها"
+
+#~ msgid "View Portfolio"
+#~ msgstr "مشاهده نمونه کار"
+
+#~ msgid "Add New Portfolio"
+#~ msgstr "افزودن نمونه کار"
+
+#~ msgid "Edit Portfolio"
+#~ msgstr "ویرایش نمونه کار"
+
+#~ msgid "Update Portfolio"
+#~ msgstr "به روز رسانی نمونه کار"
+
+#~ msgid "Search Portfolio"
+#~ msgstr "جستجوی نمونه کارها"
+
+#~ msgid "Portfolio items"
+#~ msgstr "نمونه کارها"
+
+#~ msgid "Portfolio Cat"
+#~ msgstr "دسته نمونه کارها"
+
+#~ msgid "Add New Cat"
+#~ msgstr "افزودن دسته جدید"
+
+#~ msgid "New Cat"
+#~ msgstr "دسته جدید"
+
+#~ msgid "Portfolio Metadata"
+#~ msgstr "اطلاعات تکمیلی نمونه کار"
+
+#~ msgid "technology"
+#~ msgstr "تکنولوژی"
+
+#~ msgid "start"
+#~ msgstr "تاریخ شروع"
+
+#~ msgid "finish"
+#~ msgstr "تاریخ اتمام"
+
+#~ msgid "workforce"
+#~ msgstr "نیروی کار"
+
+#~ msgid "security"
+#~ msgstr "امنیت"
+
+#~ msgid "Logout"
+#~ msgstr "خروج"
+
+#~ msgid "Login"
+#~ msgstr "ورود"
+
+#~ msgid "Leave a Reply"
+#~ msgstr "اظهار نظری تازه"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "پاسخی به %s"
+
+#~ msgid "%1$s at time %2$s"
+#~ msgstr "%1$s ساعت %2$s"
+
+#~ msgid "( Edit )"
+#~ msgstr "( ویرایش )"
+
+#~ msgid "Fenjoon web design slogan"
+#~ msgstr "طعم خوش وب"
+
+#~ msgid "Fenjoon news"
+#~ msgstr "اخبار فنجون"
+
+#~ msgid "Frequently asked questions"
+#~ msgstr "سوالات متدوال"
+
+#~ msgid "List of your orders"
+#~ msgstr "سفارش‌های من"
+
+#~ msgid "Order code"
+#~ msgstr "شناسه سفارش"
+
+#~ msgid "Order title"
+#~ msgstr "عنوان سفارش"
+
+#~ msgid "Date created"
+#~ msgstr "ثبت"
+
+#~ msgid "Date modified"
+#~ msgstr "آخرین تغییر"
+
+#~ msgid "Cost"
+#~ msgstr "هزینه (تومان)"
+
+#~ msgid "Duration (Days)"
+#~ msgstr "مدت (روز)"
+
+#~ msgid "Order explanation"
+#~ msgstr "شرح سفارش"
+
+#~ msgid "Proforma"
+#~ msgstr "پیش فاکتور"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Project code"
+#~ msgstr "شناسه پروژه"
+
+#~ msgid "Project"
+#~ msgstr "پروژه"
+
+#~ msgid "Submitted"
+#~ msgstr "ثبت شده"
+
+#~ msgid "Checking"
+#~ msgstr "بررسی"
+
+#~ msgid "You have not submitted any orders yet"
+#~ msgstr "شما هنوز سفارشی ثبت نکرده‌اید"
+
+#~ msgid "Lost password"
+#~ msgstr "فراموشی رمز عبور"
+
+#~ msgid "Request for a new one, if you have forgotten your password"
+#~ msgstr ""
+#~ "اگر رمز عبور خود را فراموش کرده‌اید، می‌توانید برای دریافت رمز جدید از طریق "
+#~ "ایمیل ثبت شده خود اقدام کنید"
+
+#~ msgid "Register"
+#~ msgstr "ثبت نام"
+
+#~ msgid "Register on fenjoon to be able to submit new orders"
+#~ msgstr ""
+#~ "برای ثبت سفارش جدید باید ابتدا در سایت ثبت نام کنید. فرآیند ثبت نام تنها "
+#~ "شامل نام و رمز عبور است"
+
+#~ msgid "Your profile information successfully updated"
+#~ msgstr "اطلاعات حساب کاربری شما با موفقیت به روز رسانی شد"
+
+#~ msgid "Password: %s"
+#~ msgstr "رمز عبور: %s"
+
+#~ msgid ""
+#~ "We were unable to send your new password to your email. Please remember or "
+#~ "write it down somewhere safe"
+#~ msgstr ""
+#~ "امکان ارسال رمز عبور شما به آدرس ایمیل تان وجود ندارد. لطفا آن را به خاطر "
+#~ "سپرده و در مکان امنی یادداشت کنید"
+
+#~ msgid "We sent your new password to your email"
+#~ msgstr ""
+#~ "شما وارد حساب کاربری خود شده‌اید و رمز عبور جدید به آدرس ایمیل‌تان نیز ارسال "
+#~ "شد"
+
+#~ msgid "Please login if you are already a fenjoon member"
+#~ msgstr ""
+#~ "درصورتیکه قبلا در سایت فنجون ثبت نام کرده‌اید، می‌توانید با نام کاربری و رمز "
+#~ "عبور خود وارد شوید"
+
+#~ msgid "Toman"
+#~ msgstr "تومان"
+
+#~ msgid "Your affiliated customers"
+#~ msgstr "مشتریان متصل به شما"
+
+#~ msgid "Row"
+#~ msgstr "ردیف"
+
+#~ msgid "Name"
+#~ msgstr "نام"
+
+#~ msgid "Join date"
+#~ msgstr "تاریخ اتصال"
+
+#~ msgid "Order count"
+#~ msgstr "تعداد سفارش"
+
+#~ msgid "Project count"
+#~ msgstr "تعداد پروژه"
+
+#~ msgid "You have no affiliated customer with at least one projects"
+#~ msgstr "شما هنوز مشتری معرفی شده‌ای که پروژه‌ای ثبت کرده باشد ندارید"
+
+#~ msgid "Project list for %s"
+#~ msgstr "پروژه‌های %s"
+
+#~ msgid "Project status"
+#~ msgstr "وضعیت پروژه"
+
+#~ msgid "Payment date"
+#~ msgstr "تاریخ پرداخت"
+
+#~ msgid "Amount"
+#~ msgstr "مبلغ (تومان)"
+
+#~ msgid "Credit number"
+#~ msgstr "شماره کارت بانکی"
+
+#~ msgid "Pursuit"
+#~ msgstr "شماره پیگیری"
+
+#~ msgid "Affiliated customer has no projects yet!"
+#~ msgstr "مشتری معرفی شده، هیچ پروژه‌ای ندارد"
+
+#~ msgid "What is customer club?"
+#~ msgstr "باشگاه مشتریان چیست؟"
+
+#~ msgid "description"
+#~ msgstr "شرح مربوط به این عنوان در این قسمت مشاهده می‌شود"
+
+#~ msgid "Why should I join customer club?"
+#~ msgstr "مزیت پیوستن به باشگاه مشتریان چیست؟"
+
+#~ msgid "Who can join the club?"
+#~ msgstr "چه کسی می‌تواند به باشگاه بپیوندد؟"
+
+#~ msgid "How can I join the club?"
+#~ msgstr "چگونه می‌توانم به باشگاه مشتریان بپیوندم؟"
+
+#~ msgid "How can I make money?"
+#~ msgstr "چگونه می‌توانم از طریق باشگاه، کسب درآمد کنم؟"
+
+#~ msgid "Modules, Features and Standards"
+#~ msgstr "ماژول‌ها، قابلیت‌ها و استانداردها"
+
+#~ msgid "Our customers recognize fenjoon for its capabilities in implementing"
+#~ msgstr "مشتریان‌مان، فنجون را با توانایی‌هایش در اجرای"
+
+#~ msgid "You may attend to the community of our"
+#~ msgstr "می‌شناسند. شما هم می‌توانید به جمع"
+
+#~ msgid "customers"
+#~ msgstr "مشتری فنجون"
+
+#~ msgid "Join"
+#~ msgstr "بپیوندید"
+
+#~ msgid "Web design process"
+#~ msgstr "فرآیند طراحی و توسعه وب"
+
+#~ msgid "Submit new order"
+#~ msgstr "ثبت سفارش جدید"
+
+#~ msgid "Edit order as much as you wish"
+#~ msgstr "تغییر در سفارش"
+
+#~ msgid "Request for a session"
+#~ msgstr "درخواست جلسه حضوری"
+
+#~ msgid "Sign the contract"
+#~ msgstr "امضای قرارداد"
+
+#~ msgid "Payment for the first instalment"
+#~ msgstr "پرداخت اولین قسط"
+
+#~ msgid "Web design project starts"
+#~ msgstr "آغاز پروژه طراحی"
+
+#~ msgid "Online project progress status"
+#~ msgstr "پیگیری آنلاین پروژه"
+
+#~ msgid "Checkout and delivery of the subject"
+#~ msgstr "تسویه مبالغ و تحویل"
+
+#~ msgid "Iranian users statistics  from %1$s, to %2$s."
+#~ msgstr "آمار کاربران ایرانی از %1$s تا %2$s"
+
+#~ msgid "Screen width"
+#~ msgstr "عرض صفحه نمایش (پیکسل)"
+
+#~ msgid "Internet explorer version"
+#~ msgstr "نسخه‌ اینترنت اکسپلورر"
+
+#~ msgid "Desktop browser and OS"
+#~ msgstr "مرورگر و سیستم عامل دسکتاپ"
+
+#~ msgid "Mobile browser and OS"
+#~ msgstr "مرورگر و سیستم‌عامل موبایل"
+
+#~ msgid "Username"
+#~ msgstr "نام کاربری"
+
+#~ msgid "Password"
+#~ msgstr "رمز عبور"
+
+#~ msgid "Username or email"
+#~ msgstr "نام کاربری یا آدرس ایمیل"
+
+#~ msgid "Request new password"
+#~ msgstr "درخواست رمز عبور جدید"
+
+#~ msgid "Your affiliate customer code"
+#~ msgstr "شناسه مشتری معرف شما - میتوانید خالی بگذارید"
+
+#~ msgid "Address"
+#~ msgstr "نشانی"
+
+#~ msgid "Mobile"
+#~ msgstr "تلفن همراه"
+
+#~ msgid "Corp"
+#~ msgstr "نام شرکت یا سازمان"
+
+#~ msgid "Change current password"
+#~ msgstr "تغییر رمز عبور فعلی"
+
+#~ msgid "Update"
+#~ msgstr "به روز رسانی"
+
+#~ msgid "email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Entity type"
+#~ msgstr "انتخاب نوع شخص"
+
+#~ msgid "Natural person"
+#~ msgstr "شخصیت حقیقی"
+
+#~ msgid "Legal person"
+#~ msgstr "شخصیت حقوقی"
+
+#~ msgid "Father's name"
+#~ msgstr "نام پدر"
+
+#~ msgid "Birth certificate number"
+#~ msgstr "شماره شناسنامه"
+
+#~ msgid "National code"
+#~ msgstr "کد ملی"
+
+#~ msgid "Manager"
+#~ msgstr "مدیر یا مدیر عامل (بدون ذکر پیشوند آقا / خانم)"
+
+#~ msgid "Registration number"
+#~ msgstr "شماره ثبت"
+
+#~ msgid "Post code"
+#~ msgstr "کد پستی"
+
+#~ msgid "Receive the contract body"
+#~ msgstr "دریافت متن قرارداد"
+
+#~ msgid "Support"
+#~ msgstr "پشتیبانی"
+
+#~ msgid "Host registration"
+#~ msgstr "سرویس میزبانی وب"
+
+#~ msgid "Domain registration"
+#~ msgstr "دامنه اینترنتی"
+
+#~ msgid "Content development"
+#~ msgstr "توسعه محتوا"
+
+#~ msgid "Penalty"
+#~ msgstr "جریمه تأخیر پرداخت"
+
+#~ msgid "Due"
+#~ msgstr "سررسید"
+
+#~ msgid "Concern"
+#~ msgstr "بابت"
+
+#~ msgid "This project has not any instalments yet."
+#~ msgstr "این پروژه تا کنون هزینه‌ای نداشته است."
+
+#~ msgid "Payment"
+#~ msgstr "پرداخت"
+
+#~ msgid "Day"
+#~ msgstr "روز"
+
+#~ msgid "Month"
+#~ msgstr "ماه"
+
+#~ msgid "Year"
+#~ msgstr "سال"
+
+#~ msgid "Note"
+#~ msgstr "شرح"
+
+#~ msgid "Submit payment"
+#~ msgstr "ثبت پرداخت"
+
+#~ msgid "This project has not any payments yet."
+#~ msgstr "این پروژه تا کنون پرداختی نداشته است."
+
+#~ msgid "Project progress"
+#~ msgstr "درصد پیشرفت پروژه"
+
+#~ msgid "Elapsed time"
+#~ msgstr "سپرسی شده"
+
+#~ msgid "Remaining time"
+#~ msgstr "باقی مانده"
+
+#~ msgid "Dark brown: project running"
+#~ msgstr "قهوه‌ای پررنگ: در حال انجام یا پیشروی"
+
+#~ msgid "Gray: project suspension"
+#~ msgstr "خاکستری: تعلیق یافته"
+
+#~ msgid "Dark gray: project cancellation"
+#~ msgstr "خاکستری پررنگ: لغو شده"
+
+#~ msgid "Search results"
+#~ msgstr "نتایج جستجو"
+
+#~ msgid "Items"
+#~ msgstr "مورد"
+
+#~ msgid "Submit"
+#~ msgstr "ثبت"
+
+#~ msgid "Enter club"
+#~ msgstr "ورود به باشگاه"
+
+#~ msgid "Submit order"
+#~ msgstr "ثبت رایگان سفارش"
+
+#~ msgid "Submit a new order!"
+#~ msgstr "ثبت رایگان سفارش"
+
+#~ msgid "Order summary"
+#~ msgstr "خلاصه سفارش"
+
+#~ msgid "Identifier"
+#~ msgstr "شناسه"
+
+#~ msgid "Correction"
+#~ msgstr "تغییر"
+
+#~ msgid "Language support"
+#~ msgstr "تعداد زبان"
+
+#~ msgid "Days"
+#~ msgstr "مدت (روز)"
+
+#~ msgid "Your design spec"
+#~ msgstr "جزئیات این سفارش در فایل PDF"
+
+#~ msgid "Download contract"
+#~ msgstr "دانلود متن قرارداد"
+
+#~ msgid "Order's contract"
+#~ msgstr "متن قرارداد این سفارش"
+
+#~ msgid "Related project"
+#~ msgstr "پروژه متصل به این سفارش"
+
+#~ msgid "Help"
+#~ msgstr "راهنما"
+
+#~ msgid "Selected"
+#~ msgstr "انتخاب شده"
+
+#~ msgid "In progress"
+#~ msgstr "در دست اجرا"
+
+#~ msgid "Not selected"
+#~ msgstr "انتخاب نشده"
+
+#~ msgid "Project summary"
+#~ msgstr "خلاصه پروژه"
+
+#~ msgid "Related order"
+#~ msgstr "سفارش متصل به این پروژه"
+
+#~ msgid "Comments"
+#~ msgstr "نظرات"
+
+#~ msgid "Reciprocal arrangement"
+#~ msgstr "تبادل نظر در خصوص این پروژه"
+
+#~ msgid "Update information to get the contract"
+#~ msgstr "تکمیل اطلاعات به منظور دریافت متن قرارداد"
+
+#~ msgid "All fields are mandatory. Please fill them wisely."
+#~ msgstr "کلیه فیلدها الزامی هستند. لطفا با دقت تکمیل کنید"
+
+#~ msgid "Update order"
+#~ msgstr "به روز رسانی سفارش"
+
+#~ msgid ""
+#~ "Dear customer. You may edit your order before the project starts, as many "
+#~ "times as you want."
+#~ msgstr ""
+#~ "مشتری محترم؛ شما می‌توانید سفارش خود را پیش از آغاز پروژه به دفعات دلخواه "
+#~ "ویرایش کنید."
+
+#~ msgid "Complementary information"
+#~ msgstr "اطلاعات تکمیلی"
+
+#~ msgid "Choose a short descriptive title"
+#~ msgstr "عنوانی مختصر و توضیح دهنده"
+
+#~ msgid "Order title (required)"
+#~ msgstr "عنوان سفارش (الزامی)"
+
+#~ msgid "Any detailed descriptions"
+#~ msgstr "جزئیاتی که در طراحی باید لحاظ شوند"
+
+#~ msgid "Order detail"
+#~ msgstr "جزئیات سفارش"
+
+#~ msgid "Similar websites you like"
+#~ msgstr "وبسایت‌هایی که می‌پسندید و مایلید در طراحی ملاحظه شوند"
+
+#~ msgid "Similar websites"
+#~ msgstr "آدرس وبسایت‌هایی که می‌پسندید ـ هر آدرس در یک خط مجزا"
+
+#~ msgid "What is your required language support?"
+#~ msgstr "پشتیبانی زبان"
+
+#~ msgid "Monolingual"
+#~ msgstr "تک زبانه ( فارسی یا انگلیسی )"
+
+#~ msgid "Bilingual"
+#~ msgstr "دو زبانه ( فارسی و انگلیسی )"
+
+#~ msgid "How should be your website look and feel?"
+#~ msgstr "وبسایت چگونه به نظر برسد؟"
+
+#~ msgid "Feminine"
+#~ msgstr "زنانه"
+
+#~ msgid "Masculine"
+#~ msgstr "مردانه"
+
+#~ msgid "Young"
+#~ msgstr "جوان‌پسند"
+
+#~ msgid "Mature"
+#~ msgstr "ساده"
+
+#~ msgid "Luxury"
+#~ msgstr "تجملاتی"
+
+#~ msgid "Economical"
+#~ msgstr "ساده"
+
+#~ msgid "Modern"
+#~ msgstr "مدرن"
+
+#~ msgid "Classic"
+#~ msgstr "سنتی"
+
+#~ msgid "Choose color scheme"
+#~ msgstr "ترکیب رنگ وبسایت را انتخاب کنید"
+
+#~ msgid "Color scheme"
+#~ msgstr "ترکیب رنگ وبسایت"
+
+#~ msgid "Purple"
+#~ msgstr "ارغوانی"
+
+#~ msgid "Royalty, Wisdom, Spirituality, Imagination"
+#~ msgstr "سلطنت، شکوه، عقل، معنویت، تخیل"
+
+#~ msgid "Blue"
+#~ msgstr "آبی"
+
+#~ msgid "Knowledge, Trust, Tranquility, Calm, Peace, Cool"
+#~ msgstr "دانش، اعتماد، آرامش، سکوت، قناعت، صلح، سرما، خوبی"
+
+#~ msgid "Green"
+#~ msgstr "سبز"
+
+#~ msgid "Fertility, Wealth, Healing, Success, Growth"
+#~ msgstr "زایش، ثروت، سلامتی، موفقیت، رشد"
+
+#~ msgid "Yellow"
+#~ msgstr "زرد"
+
+#~ msgid "Knowledge, Energy, Joy, Intellect, Youth"
+#~ msgstr "دانش، انرژی، شادی، تفکر، جوانی"
+
+#~ msgid "Orange"
+#~ msgstr "نارنجی"
+
+#~ msgid "Creativity, Invigoration, Unique, Stimulation"
+#~ msgstr "خلاقیت، نیروبخش، بی‌همتا، ترغیب و تشویق‌کننده"
+
+#~ msgid "Red"
+#~ msgstr "قرمز"
+
+#~ msgid "Passion, Anger, Vigor, Love, Danger"
+#~ msgstr "احساس، خشم، قدرت، عشق, خطر"
+
+#~ msgid "Black"
+#~ msgstr "سیاه"
+
+#~ msgid "Fear, Secrecy, Formal, Luxury"
+#~ msgstr "ترس، رازآلودگی و ابهام، رسمی بودن، تجمل"
+
+#~ msgid "Gray"
+#~ msgstr "خاکستری"
+
+#~ msgid "Balance, Sophistication, Neutrality, Uncommitted"
+#~ msgstr "تعادل، کمال، دلفریب، خنثی، استقلال، کلاسیک و سنتی"
+
+#~ msgid "White"
+#~ msgstr "سفید"
+
+#~ msgid "Purity, Healing, Perfection, Clean, Virtue"
+#~ msgstr "خلوص، کمال، پاکیزگی، خوبی، برتری، سلامتی"
+
+#~ msgid ""
+#~ "Content is the soul of a website. Content is comprised of the words or text "
+#~ "on a web page along with the graphics and structure of a website. Today Web "
+#~ "content is the best tool for building relations with your potential "
+#~ "customers. The look and feel of a site is crucial but quality web content "
+#~ "may be more important. The growing importance of content can be best judged "
+#~ "from two perspectives, Search engines and users."
+#~ msgstr ""
+#~ "محتوا به منزله روح و جان وبسایت است. محتوایی که از متون و کلمات به همراه "
+#~ "تصاویر تشکیل شده است. امروزه محتوای طراحی شده و هدفمند، بهترین ابزار برای "
+#~ "برقراری ارتباط با مشتریان و مخاطبان بالقوه است. ظاهر و رنگ و لعاب وبسایت "
+#~ "مهم است، ولی محتوای طراحی شده و مناسب از اهمیت بیشتری برخوردار است. اهمیت "
+#~ "روز افزون محتوا از دو منظر موتورهای جستجو و کاربران قابل بررسی است. طراحی و "
+#~ "توسعه محتوایی که هم موتورهای جستجو و هم کاربران را به طور همزمان راضی کند، "
+#~ "تبدیل به یکی از مهمترین تخصص ها در حوزه وب شده است."
+
+#~ msgid "How do you provide your website content?"
+#~ msgstr "محتوای وبسایت"
+
+#~ msgid "I will try write my content by myself"
+#~ msgstr "خودم سعی می‌کنم محتوای وبسایت را آماده کنم"
+
+#~ msgid "I will let Fenjoon design and develop web content for me"
+#~ msgstr "طراحی و توسعه محتوای وب را به فنجون می‌سپارم"
+
+#~ msgid "Domain name and web hosting service"
+#~ msgstr "دامنه اینترنتی و سرویس میزبانی وب"
+
+#~ msgid "Domain name"
+#~ msgstr "دامنه اینترنتی"
+
+#~ msgid "I will provide my own domain name"
+#~ msgstr "دامنه اینترنتی را شخصا فراهم خواهم کرد"
+
+#~ msgid "I need fenjoon to register a domain name for me"
+#~ msgstr "نیازمند دامنه اینترنتی هستم"
+
+#~ msgid "One year domain name with extension"
+#~ msgstr "یک سال با پسوند"
+
+#~ msgid "or"
+#~ msgstr "یا"
+
+#~ msgid "Web hosting service"
+#~ msgstr "سرویس میزبانی وب"
+
+#~ msgid "I will provide my own web hosting service"
+#~ msgstr "سرویس میزبانی وب را شخصا فراهم خواهم کرد"
+
+#~ msgid "I need fenjoon to register a web hosting service for me"
+#~ msgstr "نیازمند سرویس میزبانی وب هستم"
+
+#~ msgid "One year basic shared web hosting service"
+#~ msgstr "یک سال سرویس میزبانی وب اشتراکی"
+
+#~ msgid "Done"
+#~ msgstr "انجام شده"
+
+#~ msgid "In queue"
+#~ msgstr "در صف شروع"
+
+#~ msgid "Project instalments"
+#~ msgstr "هزینه‌های پروژه"
+
+#~ msgid "Payment history"
+#~ msgstr "سابقه پرداخت‌های این پروژه"
+
+#~ msgid "Submit new payment"
+#~ msgstr "ثبت پرداخت جدید"
+
+#~ msgid "Welcome to Fenjoon!"
+#~ msgstr "به فنجون خوش آمدید!"
+
+#~ msgid "Password Reset Request"
+#~ msgstr "درخواست تغییر رمز عبور"
+
+#~ msgid "Greetings"
+#~ msgstr "با سلام"
+
+#~ msgid "Dear user you have just joined to "
+#~ msgstr "کاربر گرامی شما هم اکنون به جمع مشتریان "
+
+#~ msgid "Fenjoon"
+#~ msgstr "فنجون"
+
+#~ msgid " Joined"
+#~ msgstr " پیوستید."
+
+#~ msgid "Your account information on Fenjoon: "
+#~ msgstr "اطلاعات حساب کاربری شما در فنجون:"
+
+#~ msgid "Affiliation code"
+#~ msgstr "کد معرف:"
+
+#~ msgid "Fenjoon's administrator wishes you such a good moments in Fenjoon"
+#~ msgstr "مدیریت فنجون لحظات خوشی را برایتان در فنجون آرزومند است."
+
+#~ msgid "Someone requested that the "
+#~ msgstr "یک درخواست به فنجون برای "
+
+#~ msgid "Password reset for the following account"
+#~ msgstr "تغییر رمز عبور حساب کاربری زیر "
+
+#~ msgid " Has been sent"
+#~ msgstr " ارسال شده است:"
+
+#~ msgid "If this was a mistake, just ignore this email and nothing will happen."
+#~ msgstr ""
+#~ "در صورتیکه این درخواست معتبر نیست، تنها کافیست این ایمیل را پاک کنید و در "
+#~ "این صورت هیچ تغییری رخ نخواهد داد"
+
+#~ msgid "For"
+#~ msgstr "برای "
+
+#~ msgid "Password reset"
+#~ msgstr "نوسازی رمزتان"
+
+#~ msgid "Look this address"
+#~ msgstr " این نشانی را ببینید:"
+
+#~ msgid "Your updated account information:"
+#~ msgstr "اطلاعات جدید حساب کاربری شما:"
+
+#~ msgid "Username: %s"
+#~ msgstr "نام کاربری: %s"
+
+#~ msgid "You can now login with your new password at: "
+#~ msgstr "می‌توانید از طریق لینک زیر وارد حساب کاربری خود شوید:"
+
+#~ msgid "New password on fenjoon.net"
+#~ msgstr "رمز عبور جدید در فنجون"
+
+#~ msgid ""
+#~ "Someone requested that the password be reset for the following account:"
+#~ msgstr ""
+#~ "یک درخواست به فنجون برای تغییر رمز عبور حساب کاربری زیر ارسال شده است:"
+
+#~ msgid "To reset your password, visit the following address:"
+#~ msgstr "جهت تغییر رمز عبور، بر روی لینک زیر کلیک کنید:"
+
+#~ msgid "You have not set any affiliation codes, Click here to set one"
+#~ msgstr "شما هنوز شناسه معرف خود را ثبت نکرده‌اید. برای ثبت آن کلیک کنید"
+
+#~ msgid "Fenjoon web design slogan "
+#~ msgstr "طعم خوش وب با فنجون"
+
+#~ msgid "Edit the order as you wish"
+#~ msgstr "اعمال تغییرات در سفارش"
+
+#~ msgid "Fenjoon members in stack"
+#~ msgstr "اعضای فنجون در استک"
+
+#~ msgid "Portal"
+#~ msgstr "باشگاه مشتریان"
+
+#~ msgid "Farzam webnegar sivan"
+#~ msgstr "فرزام وب نگار سیوان"
+
+#~ msgid "Finish date"
+#~ msgstr "تاریخ اتمام"
+
+#~ msgid "Id"
+#~ msgstr "ردیف"
+
+#~ msgid "Say more"
+#~ msgstr "اطلاعات بیشتر"
+
+#~ msgid "Basic shared web hosting service"
+#~ msgstr "سرویس میزبانی وب اشتراکی پایه"
+
+#~ msgid "All rights reserved"
+#~ msgstr "کلیه حقوق محفوظ است"
+
+#~ msgid "Our statistics"
+#~ msgstr "آمار گروه فنجون"
+
+#~ msgid "Activity start"
+#~ msgstr "آغاز فعالیت"
+
+#~ msgid "Number of customers"
+#~ msgstr "تعداد مشتریان"
+
+#~ msgid "Person"
+#~ msgstr "نفر"
+
+#~ msgid "Team members"
+#~ msgstr "اعضای گروه"
+
+#~ msgid "Orders"
+#~ msgstr "سفارش‌ها"
+
+#~ msgid "Order"
+#~ msgstr "سفارش"
+
+#~ msgid "Projects"
+#~ msgstr "پروژه‌ها"
+
+#~ msgid "Time"
+#~ msgstr "زمان"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Code"
+#~ msgstr "شناسه"
+
+#~ msgid "Your order"
+#~ msgstr "سفارش شما"
+
+#~ msgid "Sum"
+#~ msgstr "جمع"
+
+#~ msgid "Fenjoon Group Website"
+#~ msgstr "طعم خوش وب با فنجون"
+
+#~ msgid "Fenjoon web design group"
+#~ msgstr "طعم خوش وب با فنجون"
+
+#~ msgid "Register new order"
+#~ msgstr "ثبت سفارش جدید"
+
+#~ msgid "Mobile well-known operating systems"
+#~ msgstr "منطبق با سیستم‌عامل‌های موبایل"
+
+#~ msgid "Standard markup verifiable by W3C verification service"
+#~ msgstr "نشانه‌گذاری استاندارد منطبق با کنسرسیوم جهانی وب"
+
+#~ msgid "Compatible to well-known browsers"
+#~ msgstr "منطبق با مرورگرهای اینترنتی محبوب"
+
+#~ msgid "Developing based on most-popular Content management systems"
+#~ msgstr "توسعه بر پایه محبوب‌ترین سیستم‌های مدیریت محتوا"
+
+#~ msgid ""
+#~ "Highly active members on largest online design and development communities"
+#~ msgstr "عضویت فعال در معتبرترین جامعه مجازی طراحی و توسعه"
+
+#~ msgid ""
+#~ "Designing with highest possible Google & Yahoo! website load speed grades"
+#~ msgstr "سرعت بالای بارگذاری صفحات وب از دید گوگل و یاهو"
+
+#~ msgid "Designing professional color schemes by graphic specialists"
+#~ msgstr "طراحی حرفه‌ای اسکیم رنگ توسط متخصصان گرافیک"
+
+#~ msgid "Considering security solutions for almost any well-known web attack"
+#~ msgstr "راهکارهای امنیتی در مواجهه با حملات شناخته شده وب"
+
+#~ msgid "Eye catching and attracting visual design"
+#~ msgstr "طراحی بصری چشم‌نواز و جذاب"
+
+#~ msgid "Payment as an investment instead of cost"
+#~ msgstr "پرداخت به عنوان سرمایه‌گذاری و نه هزینه"
+
+#~ msgid "For those who are not rich enough to purchase cheap goods"
+#~ msgstr "برای آنها که به اندازه کافی پولدار نیستند که کالای نامرغوب بخرند"
+
+#~ msgid "Environment-friendly design and development"
+#~ msgstr "طراحی و توسعه هماهنگ با حفظ محیط زیست"
+
+#~ msgid ""
+#~ "Lowering required energy and resources to load pages by optimizing page "
+#~ "load process "
+#~ msgstr ""
+#~ "کاهش انرژی و منابع لازم جهت بارگذاری صفحات وب از طریق بهینه سازی فرآیند "
+#~ "بارگذازی صفحات"
+
+#~ msgid "Fully documented design and development"
+#~ msgstr "رعایت کاملا مستندسازی در فرآیند طراحی و توسعه"
+
+#~ msgid ""
+#~ "You may shift to another entity or even continue it yourself in any time"
+#~ msgstr ""
+#~ "با در دست داشتن مستندات کامل پروژه، در هر مقطع از زمان می‌توانید به راحتی با "
+#~ "دیگر پیمانکاران مشارکت کنید"
+
+#~ msgid "Life-time debugging warranty!"
+#~ msgstr "تضمین رفع عیب و خطا از سایت شما تا همیشه"
+
+#~ msgid "If we are the source, so please let us solved it for you for free"
+#~ msgstr ""
+#~ "اگر فنجون منشأ پیدایش یک پیغام خطاست، اجازه دهید تا به طور رایگان آن را "
+#~ "تصحیح کنیم"
+
+#~ msgid "We try to be creative in every single project"
+#~ msgstr "سعی فنجون بر استفاده از خلاقیت در طراحی است"
+
+#~ msgid "We always try to be in time as we respect to our clients schedules"
+#~ msgstr "رعایت زمان‌بندی و تحویل پروژه پیش از موعد"
+
+#~ msgid "Designing mono-lingual or bilingual websites"
+#~ msgstr "طراحی وب یک یا دو زبانه به زبان‌های انگلیسی یا فارسی"
+
+#~ msgid ""
+#~ "You may request a Persian-only or even an English-Persian bilingual website "
+#~ "design, nothing else"
+#~ msgstr ""
+#~ "می‌توانید یک وبسایت تک زبانه فارسی یا انگلیسی و یا یک وبسایت دو زبانه فارسی "
+#~ "ـ انگلیسی سفارش دهید"
+
+#~ msgid "Fully responsive web design is our speciality"
+#~ msgstr "طراحی واکنشگرای همه جانبه، تخصص ماست"
+
+#~ msgid ""
+#~ "Think of a website which retains the same look and feel between devices"
+#~ msgstr ""
+#~ "به وبسایتی فکر کنید که در طیف وسیعی از وسایل و نمایشگرهای مختلف، ظاهری "
+#~ "یکسان و خوانا به نمایش می‌گذارد"
+
+#~ msgid "Desktop Multi-platform design"
+#~ msgstr "منطبق با سیستم‌عامل‌های مختلف رایانه‌های رومیزی"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "Parent General"
+#~ msgstr "آیتم عمومی اصلی"
+
+#~ msgid "All General"
+#~ msgstr "همه عمومی ها"
+
+#~ msgid "View General"
+#~ msgstr "مشاهده آیتم عمومی"
+
+#~ msgid "Add New General"
+#~ msgstr "افزودن آیتم عمومی"
+
+#~ msgid "Edit General"
+#~ msgstr "ویرایش آیتم عمومی"
+
+#~ msgid "Update General"
+#~ msgstr "به روز رسانی آیتم عمومی"
+
+#~ msgid "Search General"
+#~ msgstr "جستجوی آیتم های عمومی"
+
+#~ msgid "General information for the site"
+#~ msgstr "آیتم های عمومی وبسایت"
+
+#~ msgid "General Field"
+#~ msgstr "دسته آیتم های عمومی"
+
+#~ msgid "Add New Field"
+#~ msgstr "افزودن فیلد جدید"
+
+#~ msgid "New Field"
+#~ msgstr "فیلد جدید"
+
+#~ msgid "Field"
+#~ msgstr "دسته"
+
+#~ msgid "Field not set!"
+#~ msgstr "دسته نامشخص"
+
+#~ msgid "Our difference"
+#~ msgstr "تفاوت ما"
+
+#~ msgid "Services we offer"
+#~ msgstr "خدمات ما"
+
+#~ msgid "Services we do not offer"
+#~ msgstr "خدماتی که ارائه نمی‌دهیم"
+
+#~ msgid "Public responsibility"
+#~ msgstr "مسئولیت اجتماعی"
+
+#~ msgid "Push this new order button right now!"
+#~ msgstr "همین حالا برای ثبت سفارش طراحی وبسایت خود اقدام کنید!"
+
+#~ msgid "Welcome %s."
+#~ msgstr "%s خوش آمدید"
+
+#~ msgid "Welcome guest"
+#~ msgstr "کاربر عزیز خوش آمدید"
+
+#~ msgid "Search"
+#~ msgstr "جستجو"
+
+#~ msgid "You are logged with"
+#~ msgstr "شما با نام"
+
+#~ msgid "To the system"
+#~ msgstr "وارد شده‌اید"
+
+#~ msgid "Your profile updated successfully"
+#~ msgstr "مشخصات شما با موفقیت به روز شد"
+
+#~ msgid "(more...)"
+#~ msgstr "بیشتر"
+
+#~ msgid "Sorry, no posts matched your criteria."
+#~ msgstr "متاسفانه پستی با این مشخصات پیدا نشد"
+
+#~ msgid "Activity duration"
+#~ msgstr "مدت زمان فعالیت"
+
+#~ msgid "Website"
+#~ msgstr "وبسایت"
+
+#~ msgid "Web application"
+#~ msgstr "برنامه"
+
+#~ msgid "Welcome dear user %s."
+#~ msgstr "کاربر محترم %s خوش آمدید"
+
+#~ msgid "Date"
+#~ msgstr "تاریخ پرداخت"
+
+#~ msgid "New order"
+#~ msgstr "ثبت سفارش"
+
+#~ msgid "Technology"
+#~ msgstr "فناوری"
+
+#~ msgid "Start date"
+#~ msgstr "تاریخ شروع"
+
+#~ msgid "Workforce"
+#~ msgstr "نیروی کار"

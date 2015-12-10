@@ -76,57 +76,36 @@
     </div>
     <!-- end of left content -->
     <div class="center_content">
-      <div class="center_title_bar">آخرین محصولات</div>
-			<?php 
-			//Define your custom post type name in the arguments
-			$args = array('post_type' => 'latests');
-			//Define the loop based on arguments
+      <div class="center_title_bar"><?php _e( 'Latest products', 'estore' ); ?></div><?php 
+			$args = array('post_type' => array('laptops','phones'), 'tag' => 'latest');
 			$loop = new WP_Query( $args );
-			//Display the content
-			while ( $loop->have_posts() ) : $loop->the_post();
-			?>
+			while ( $loop->have_posts() ) : $loop->the_post();	?>
 			<div class="prod_box">
         <div class="top_prod_box"></div>
         <div class="center_prod_box">
-          <div class="product_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-          <div class="product_img"><a href="<?php the_permalink(); ?>"><img src="<?php get_post_thumbnail_id( $post->ID ); $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $postid ), 'thumbnail', false );  $thumb_url = $thumb_url[0];  echo $thumb_url; ?>" border="0" /></a></div>
-          <div class="prod_price"><span class="reduce">1350000</span> <span class="price" id="p1cost">120000000</span></div>
+          <div class="product_title"><a target="_blank" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+          <div class="product_img"><a target="_blank" href="<?php the_permalink(); ?>"><img src="<?php get_post_thumbnail_id( $post->ID ); $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $postid ), 'thumbnail', false );  $thumb_url = $thumb_url[0];  echo $thumb_url; ?>" border="0" /></a></div>
+          <div class="prod_price"><span class="reduce"><?php echo get_post_meta( $post->ID, 'reduced', 1 ); ?></span> <span class="price" id="p1cost"><?php echo get_post_meta( $post->ID, 'price', 1 ); ?></span></div>
         </div>
         <div class="bottom_prod_box"></div>
-        <div class="prod_details_tab"> <a href="#" id="p1" onclick="add_to_cart(this);" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">جزییات</a> </div>
+        <div class="prod_details_tab"> <a href="#" id="p1" onclick="add_to_cart(this);" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="<?php echo THEME_URI; ?>/images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="<?php echo THEME_URI; ?>/images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="<?php echo THEME_URI; ?>/images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a target="_blank" href="<?php the_permalink(); ?>" class="prod_details">جزییات</a> </div>
       </div>
 			<?php endwhile;?>
-      <div class="center_title_bar">پیشنهاد ویژه</div>
-      <div class="prod_box">
+      <div class="center_title_bar"><?php _e( 'Specials', 'estore' ); ?></div><?php
+			$args = array('post_type' => array('laptops','phones'), 'tag' => 'special');
+			$loop = new WP_Query( $args );
+			while ( $loop->have_posts() ) : $loop->the_post();
+		?><div class="prod_box">
         <div class="top_prod_box"></div>
         <div class="center_prod_box">
-          <div class="product_title"><a href="details.html">Motorola 156 MX-VL</a></div>
-          <div class="product_img"><a href="details.html"><img src="images/laptop.gif" alt="" border="0" /></a></div>
-          <div class="prod_price"><span class="reduce">1,850,000</span> <span class="price">1,000,000</span></div>
+          <div class="product_title"><a target="_blank" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+          <div class="product_img"><a target="_blank" href="<?php the_permalink(); ?>"><img src="<?php get_post_thumbnail_id( $post->ID ); $thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $postid ), 'thumbnail', false );  $thumb_url = $thumb_url[0];  echo $thumb_url; ?>" alt="" border="0" /></a></div>
+          <div class="prod_price"><span class="reduce"><?php echo get_post_meta( $post->ID, 'reduced', 1 ); ?></span> <span class="price"><?php echo get_post_meta( $post->ID, 'price', 1 ); ?></span></div>
         </div>
         <div class="bottom_prod_box"></div>
         <div class="prod_details_tab"> <a href="#" onclick="add_to_cart();" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">جزییات</a> </div>
-      </div>
-      <div class="prod_box">
-        <div class="top_prod_box"></div>
-        <div class="center_prod_box">
-          <div class="product_title"><a href="details.html">Iphone Apple</a></div>
-          <div class="product_img"><a href="details.html"><img src="images/p4.gif" alt="" border="0" /></a></div>
-          <div class="prod_price"><span class="price">1,850,000</span></div>
-        </div>
-        <div class="bottom_prod_box"></div>
-        <div class="prod_details_tab"> <a href="#" onclick="add_to_cart();" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">جزییات</a> </div>
-      </div>
-      <div class="prod_box">
-        <div class="top_prod_box"></div>
-        <div class="center_prod_box">
-          <div class="product_title"><a href="details.html">Samsung Webcam</a></div>
-          <div class="product_img"><a href="details.html"><img src="images/p5.gif" alt="" border="0" /></a></div>
-          <div class="prod_price"><span class="reduce">1,850,000</span> <span class="price">1,550,000</span></div>
-        </div>
-        <div class="bottom_prod_box"></div>
-        <div class="prod_details_tab"> <a href="#" onclick="add_to_cart();" title="header=[Add to cart] body=[&nbsp;] fade=[on]"><img src="images/cart.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Specials] body=[&nbsp;] fade=[on]"><img src="images/favs.gif" alt="" border="0" class="left_bt" /></a> <a href="#" title="header=[Gifts] body=[&nbsp;] fade=[on]"><img src="images/favorites.gif" alt="" border="0" class="left_bt" /></a> <a href="details.html" class="prod_details">جزییات</a> </div>
-      </div>
+      </div><?php
+			endwhile; ?>
     </div>
     <!-- end of center content -->
     <div class="right_content">
