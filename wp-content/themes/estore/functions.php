@@ -291,4 +291,8 @@ function price_metabox_save( $post_id ){
 		update_post_meta( $post_id, 'reduced', $reduced );
 		
 }
+<<<<<<< HEAD
 add_action( 'save_post', 'price_metabox_save' );
+=======
+add_action( 'save_post', 'price_metabox_save' );
+>>>>>>> origin/master

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿<?php
+=======
+<?php
+>>>>>>> origin/master
 global $post;
 global $wpdb;
 $technical_table = $wpdb->prefix . 'technical';
