@@ -74,16 +74,32 @@ function technical_metabox() {
 	$screens = array( 'laptops', 'phones'  );
 	foreach ( $screens as $screen ) {
 		add_meta_box(
-			'myplugin_sectionid',
+			'technical_metabox',
 			__( 'Technical Specifications', 'estore' ),
 			'add_technical_metabox',
 			$screen
 		);
 	}
 }
-add_action( 'add_meta_boxes', 'technical_metabox' );
 
-function add_technical_metabox( $post ) {
+function price_metabox() {
+	$screens = array( 'laptops', 'phones'  );
+	foreach ( $screens as $screen ) {
+		add_meta_box(
+			'price_metabox',
+			__( 'Price', 'estore' ),
+			'add_price_metabox',
+			$screen,
+			'side',
+			'high'
+		);
+	}
+}
+
+add_action( 'add_meta_boxes', 'technical_metabox' );
+add_action( 'add_meta_boxes', 'price_metabox' );
+
+function add_technical_metabox( $post ){
 	// Add a nonce field so we can check for it later.
 	wp_nonce_field( 'technical_save_metabox_data', 'technical_meta_box_nonce' );
 	global $wpdb;
@@ -93,31 +109,49 @@ function add_technical_metabox( $post ) {
 	<table border="0">
 		<tr>
 			<td><?php _e('cpu implementer', 'estore'); ?></td>
-			<td><input type="text" id="cpu_implementer_field" name="cpu_implementer_field" value="<?php echo $technical_infos[0]->cpu_implementer; ?>" size="25" /></td>
+			<td><input type="text" dir="ltr" id="cpu_implementer_field" name="cpu_implementer_field" value="<?php echo $technical_infos[0]->cpu_implementer; ?>" size="25" /></td>
 		</tr>
 		<tr>
-			<td><?php _e('cpu seri', 'estore'); ?></td>
-			<td><input type="text" id="cpu_seri_field" name="cpu_seri_field" value="<?php echo $technical_infos[0]->cpu_seri; ?>" size="25" /></td>
+			<td><?php ( get_post_type( $post ) == 'laptops' )? _e('cpu seri', 'estore') : _e( 'Camera', 'estore' ); ?></td>
+			<td><input type="text" dir="ltr" id="cpu_seri_field" name="cpu_seri_field" value="<?php echo $technical_infos[0]->cpu_seri; ?>" size="25" /></td>
 		</tr>
 		<tr>
 			<td><?php _e('RAM', 'estore'); ?></td>
-			<td><input type="text" id="ram_field" name="ram_field" value="<?php echo $technical_infos[0]->ram; ?>" size="25" /></td>
+			<td><input type="text" dir="ltr" id="ram_field" name="ram_field" value="<?php echo $technical_infos[0]->ram; ?>" size="25" /></td>
 		</tr>
 		<tr>
-			<td><?php _e('graphic', 'estore'); ?></td>
-			<td><input type="text" id="graphic_field" name="graphic_field" value="<?php echo $technical_infos[0]->graphic; ?>" size="25" /></td>
+			<td><?php ( get_post_type( $post ) == 'laptops' )? _e('graphic', 'estore') : _e( 'Display', 'estore' ); ?></td>
+			<td><input type="text" dir="ltr" id="graphic_field" name="graphic_field" value="<?php echo $technical_infos[0]->graphic; ?>" size="25" /></td>
 		</tr>
 		<tr>
 			<td><?php _e('weight', 'estore'); ?></td>
-			<td><input type="text" id="weight_field" name="weight_field" value="<?php echo $technical_infos[0]->weight; ?>" size="25" /></td>
+			<td><input type="text" dir="ltr" id="weight_field" name="weight_field" value="<?php echo $technical_infos[0]->weight; ?>" size="25" /></td>
 		</tr>
 	</table><?php
 }
 
+function add_price_metabox( $post ) {
+	// Add a nonce field so we can check for it later.
+	wp_nonce_field( 'price_save_metabox_data', 'price_meta_box_nonce' );
+	$price = get_post_meta( $post->ID, 'price', 1 );
+	$reduced = get_post_meta( $post->ID, 'reduced', 1 ); ?>
+	<table border="0">
+		<tr width="80%">
+			<td><?php _e('Price', 'estore'); ?></td>
+			<td><input type="text" dir="ltr" id="price_field" name="price_field" value="<?php echo $price; ?>" size="18" /></td>
+		</tr>
+		<tr width="20%">
+			<td><?php _e( 'Reduced price', 'estore' ); ?></td>
+			<td><input type="text" dir="ltr" id="rprice_field" name="rprice_field" value="<?php echo $reduced; ?>" size="18" /></td>
+		</tr>
+	</table><?php
+}
+
+
 //********************************
 // technical specification metabox
 //********************************
-function technical_metabox_save( $post_id ) {
+function technical_metabox_save( $post_id ){
 	global $wpdb;
 	if ( ! isset( $_POST['technical_meta_box_nonce'] ) ) {
 		return;
@@ -175,3 +209,45 @@ function technical_metabox_save( $post_id ) {
 		
 }
 add_action( 'save_post', 'technical_metabox_save' );
+
+function price_metabox_save( $post_id ){
+	global $wpdb;
+	if ( ! isset( $_POST['price_meta_box_nonce'] ) ) {
+		return;
+	}
+	// Verify that the nonce is valid.
+	if ( ! wp_verify_nonce( $_POST['price_meta_box_nonce'], 'price_save_metabox_data' ) ) {
+		return;
+	}
+	// If this is an autosave, our form has not been submitted, so we don't want to do anything.
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
+	// Check the user's permissions.
+	if ( isset( $_POST['post_type'] ) && 'page' == $_POST['post_type'] ) {
+		if ( ! current_user_can( 'edit_page', $post_id ) ) {
+			return;
+		}
+	} else {
+		if ( ! current_user_can( 'edit_post', $post_id ) ) {
+			return;
+		}
+	}
+	/* OK, it's safe for us to save the data now. */
+	// Make sure that it is set.
+	if ( ! isset( $_POST['cpu_implementer_field'] ) ) {
+		return;
+	}if ( ! isset( $_POST['cpu_seri_field'] ) ) {
+		return;
+	}
+	// Sanitize user input.
+	$price = sanitize_text_field( $_POST['price_field'] );
+	$reduced = sanitize_text_field( $_POST['rprice_field'] );
+	// Update the meta field in the database.
+	if( $price )
+		update_post_meta( $post_id, 'price', $price );
+	if ( $reduced )
+		update_post_meta( $post_id, 'reduced', $reduced );
+		
+}
+add_action( 'save_post', 'price_metabox_save' );
