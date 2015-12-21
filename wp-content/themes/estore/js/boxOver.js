@@ -368,18 +368,22 @@ function hideSelects(){
    }
 }
 
-function add_to_cart(choice){
+function add_to_cart( choice ){
 	var suffix = "cost";
 	var val = document.getElementById("num_of_purchases").innerHTML;
 	var cost = parseInt(document.getElementById("total_price").innerHTML,10);
 	val++;
-	console.log(cost);
-	document.getElementById("num_of_purchases").innerHTML=val;
-	console.log(val);
+	var purchase = document.getElementById( choice.id ).getAttribute('pid');
+	var purchases = document.getElementById("purchases_ids").value;
+	console.log(purchases);
+  purchases = purchases.concat("+").concat(purchase);
+	console.log("sala");
+	console.log(purchases);
+	document.getElementById("purchases_ids").value = purchases;
+	document.getElementById("num_of_purchases").innerHTML = val;
 	switch( choice.id ){
 		case "p1":
 			var product_price = parseInt(document.getElementById(choice.id.concat(suffix)).innerHTML,10);
-			console.log(product_price);
 			cost += product_price;
 			break;
 		case "p2":
